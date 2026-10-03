@@ -1,64 +1,47 @@
-DevVault 🧰
+# DevVault 🧰
 
-«A fast, privacy-first developer toolbox that runs entirely in your browser.»
+A fast, privacy-first developer toolbox built for everyday tasks and designed to run locally in your browser.
 
-""License: MIT" (https://img.shields.io/badge/License-MIT-yellow.svg)" (LICENSE)
-""Built with React" (https://img.shields.io/badge/Built%20with-React-61DAFB.svg)" (https://react.dev/)
-""TypeScript" (https://img.shields.io/badge/TypeScript-5.x-3178C6.svg)" (https://www.typescriptlang.org/)
+## ✨ Included Tools
 
-DevVault is a collection of useful developer utilities designed to be fast, simple, and privacy-friendly.
+| Tool | Purpose |
+| --- | --- |
+| 🧩 JSON | Format and validate JSON |
+| 🔐 Base64 | Encode and decode Base64 |
+| 🔗 URL | Encode and decode URLs |
+| 🆔 UUID | Generate UUIDs |
+| #️⃣ Hash | Generate SHA-256 hashes |
+| 🕐 Timestamp | Convert Unix timestamps |
+| 🔎 Regex | Test regular expressions |
 
-No accounts. No backend required. Your input stays in your browser for the built-in tools.
+## 🔒 Privacy First
 
-✨ Features
+DevVault follows a local-first approach: built-in utilities process input in the browser and do not require an application backend.
 
-Tool| Description
-🧩 JSON| Format and validate JSON
-🔐 Base64| Encode and decode Base64
-🔗 URL| Encode and decode URLs
-🆔 UUID| Generate unique UUIDs
-#️⃣ Hash| Generate SHA-256 hashes
-🕐 Timestamp| Convert Unix timestamps
-🔎 Regex| Test regular expressions
+Always review the implementation before using any tool with highly sensitive information.
 
-🔒 Privacy First
+## 🚀 Getting Started
 
-DevVault is designed with a simple principle:
-
-Your developer data should stay yours.
-
-The built-in tools perform processing locally in your browser. DevVault does not require a server or database to process your input.
-
-«Still, always review the implementation yourself before using any tool with sensitive data.»
-
-🚀 Getting Started
-
-Requirements
+Requirements:
 
 - Node.js 18+
 - npm
 
-Installation
-
+```bash
 git clone https://github.com/feloony/devvault.git
 cd devvault
 npm install
-
-Development
-
 npm run dev
+```
 
-Open the local URL shown by Vite.
+Build for production:
 
-Production Build
-
+```bash
 npm run build
-
-Preview the production build with:
-
 npm run preview
+```
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - React
 - TypeScript
@@ -67,9 +50,7 @@ npm run preview
 - Modern CSS
 - Browser Web Crypto API
 
-🗺️ Roadmap
-
-Planned tools and improvements:
+## 🗺️ Roadmap
 
 - [ ] JWT decoder
 - [ ] Color converter
@@ -80,82 +61,29 @@ Planned tools and improvements:
 - [ ] YAML formatter
 - [ ] SQL formatter
 - [ ] HTTP status lookup
-- [ ] PWA / offline support
+- [ ] PWA/offline support
 - [ ] Keyboard shortcuts
-- [ ] Shareable tool configurations
+- [ ] Shareable configurations
 
-Have an idea? Open an issue!
+Have an idea? Open an issue.
 
-🤝 Contributing
+## 🤝 Contributing
 
-Contributions are welcome.
+Fork the repository, create a feature branch, make your change, run the production build, and open a pull request with a clear description.
 
-1. Fork the repository.
-2. Create a feature branch.
-
+```bash
 git checkout -b feature/my-feature
-
-3. Make your changes.
-4. Test the project.
-
 npm run build
-
-5. Commit your changes.
-
-git commit -m "feat: add my feature"
-
-6. Push your branch.
-
+git commit -m "feat: describe your change"
 git push origin feature/my-feature
+```
 
-7. Open a Pull Request.
+## 🌐 Deployment
 
-Please keep contributions focused and include documentation when adding a new tool.
+DevVault can be deployed as a static frontend to GitHub Pages, Vercel, Netlify, Cloudflare Pages, or similar platforms.
 
-💡 Why DevVault?
+## 📄 License
 
-Developers constantly need small utilities:
+MIT License. See [`LICENSE`](LICENSE).
 
-- "Can you format this JSON?"
-- "What's the Base64 value?"
-- "Generate a UUID."
-- "What's this Unix timestamp?"
-- "Does this regex match?"
-- "What's the SHA-256 hash?"
-
-DevVault puts these everyday tools in one clean interface.
-
-📸 Screenshots
-
-Add screenshots or a demo GIF here once the project is deployed.
-
-🌐 Deployment
-
-DevVault is a static frontend and can be deployed to platforms such as:
-
-- GitHub Pages
-- Vercel
-- Netlify
-- Cloudflare Pages
-
-📄 License
-
-DevVault is released under the MIT License.
-
-See ""LICENSE"" (LICENSE) for the full license text.
-
-⭐ Support
-
-If DevVault is useful to you:
-
-- ⭐ Star the repository
-- 🐛 Report bugs
-- 💡 Suggest features
-- 🔧 Submit improvements
-- 📢 Share it with other developers
-
-Every contribution helps the project grow.
-
----
-
-Made with ❤️ by "feloony" (https://github.com/feloony)
+⭐ If DevVault saves you time, consider starring the repository.
